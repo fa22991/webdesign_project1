@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Overpass:wght@900&display=swap');
+
+body {
+    background: white;
+    overflow-x: hidden;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark {
+
+    width: 0;
+    height: 0;
+    border-bottom: 98vh solid #2f2f2f;
+    border-left: 100vw solid transparent;
+    margin-left: -12px;
+    margin-top: 10px;
+}
+
+.orange {
+    position: absolute;
+    top: 0px;
+    margin-left: -5px;
+    width: 0;
+    height: 0;
+    border-top: 98vh solid #fe6f27;
+    border-right: 100vw solid transparent;
+}
+
+#orange {
+    font-family: Bebas Neue;
+    color: #2f2f2f;
+    font-size: 350px;
+    position: absolute;
+    top: -120px;
+    left: 30px;
+    letter-spacing: 10px;
+    z-index: 10;
+}
+
+#a {
+    font-family: Bebas Neue;
+    color: #fe6f27;
+    font-size: 350px;
+    position: absolute;
+    top: -110px;
+    left: 900px;
+    letter-spacing: 10px;
+    z-index: 10;
+}
+
+#paw {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    opacity: 0.5;
+}
+
+.ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+
+}
+
+ul li {
+    list-style: none;
+    margin: 0em 0;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #2f2f2f;
+    font-size: 22px;
+    display: block;
+    padding: 10px 15px;
+    position: relative;
+    font-family: Abel;
+    font-size: 30px;
+}
+
+ul li a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #2f2f2f;
+    transform: scaleX(0);
+    transition: all 0.5s;
+    transform-origin: left;
+}
+
+ul li a:hover:before,
+ul li a:hover:after {
+    transform: scaleX(1);
+
+}
+
+ul li a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #2f2f2f;
+    transform: scaleX(0);
+    transition: all 0.5s;
+    transform-origin: right;
+
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 40px;
+    left: 120px;
+}
+
+#about {
+    background: #2f2f2f;
+    width: 100vw;
+    height: 90vh;
+    color: white;
+    margin-left: -20px;
+    border: 1px solid white;
+    margin-top: 11px;
+}
+
+#ab {
+    position: absolute;
+    left: 800px;
+    top: 1100px;
+    width: 600px;
+    height: 200px;
+    font-size: 20px;
+    font-family: Abel;
+}
+
+#img1 {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 1000px;
+    left: 170px;
+}
+
+#abH {
+    font-size: 70px;
+    color: white;
+    font-family: Bebas Neue;
+    position: absolute;
+    left: 1000px;
+    top: 930px;
+}
+
+#img2 {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 1800px;
+    left: 1000px;
+}
+
+#ser {
+    font-size: 70px;
+    color: #2f2f2f;
+    font-family: Bebas Neue;
+    position: absolute;
+    left: 330px;
+    top: 1730px;
+}
+
+#serv {
+    position: absolute;
+    left: 170px;
+    top: 1900px;
+    width: 600px;
+    height: 200px;
+    font-size: 20px;
+    font-family: Abel;
+}
+
+#services {
+    background: #fe6f27;
+    width: 100vw;
+    height: 80vh;
+    margin-left: -20px;
+}
+
+#portfolio {
+    background: #2f2f2f;
+    width: 100vw;
+    height: 90vh;
+    color: white;
+    margin-left: -20px;
+    border: 1px solid white;
+
+}
+
+#portf {
+    position: absolute;
+    left: 800px;
+    top: 2700px;
+    width: 600px;
+    height: 200px;
+    font-size: 20px;
+    font-family: Abel;
+}
+
+#img3 {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 2600px;
+    left: 170px;
+}
+
+#port {
+    font-size: 70px;
+    color: white;
+    font-family: Bebas Neue;
+    position: absolute;
+    left: 950px;
+    top: 2500px;
+}
+
+#contact {
+    background: #fe6f27;
+    width: 100vw;
+    height: 90vh;
+    color: #2f2f2f;
+    margin-left: -20px;
+    border: 1px solid white;
+
+}
+
+#contactP {
+    position: absolute;
+    left: 800px;
+    top: 3500px;
+    width: 600px;
+    height: 200px;
+    font-size: 20px;
+    font-family: Abel;
+}
+
+#img4 {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 3400px;
+    left: 170px;
+}
+
+#contactH {
+    font-size: 70px;
+    color: #2f2f2f;
+    font-family: Bebas Neue;
+    position: absolute;
+    left: 950px;
+    top: 3300px;
+}
+
+#facebook {
+    font-size: 70px;
+    color: black;
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+}
+
+#twitter {
+    font-size: 70px;
+    color: black;
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+    left: 40px;
+}
+
+#youtube {
+    font-size: 70px;
+    color: black;
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+    left: 80px;
+}
+
+#instagram {
+    font-size: 70px;
+    color: black;
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+    left: 120px;
+}
+
+footer {
+    width: 100vw;
+    height: 90vh;
+    background: #2f2f2f;
+    position: absolute;
+    left: -10px;
+    color: white;
+    font-family: Abel;
+    font-size: 15px;
+
+
+}
+
+#text {
+    position: relative;
+    top: 150px;
+    left: 200px;
+}
+
+#sm {
+    position: relative;
+    left: 500px;
+}
+
+#logodiv {
+    color: white;
+    font-family: Bebas Neue;
+    font-size: 60px;
+    position: relative;
+    top: 150px;
+    left: 600px;
+}
+
+#logo2 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: -230px;
+    top: 50px;
+}
+
+#s1 {
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+#hash {
+    position: relative;
+    top: -200px;
+    left: 50px;
+}
+
+#logo4 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: -320px;
+    top: -180px;
+}
+
+#s2 {
+    position: relative;
+    top: 100px;
+    left: -1400px;
+}
